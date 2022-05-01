@@ -27,7 +27,7 @@
             
             btn.addEventListener('click', function(e) {
                 e.preventDefault()
-                alert(`Sorry, ${document.getElementById('firstName').value}, the preventDefault() method won't let you submit this form!`)
+                alert(`Sorry, ${document.getElementById(`firstName`).value}, the preventDefault() method won't let you submit this form!`)
                 document.getElementById('explanation').style.visibility = 'visible'
             })
         </script>
